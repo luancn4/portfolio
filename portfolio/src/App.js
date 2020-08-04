@@ -2,12 +2,14 @@ import React from "react";
 import GlobalStyle from "./styles/global";
 import Introduction from "./components/Introduction";
 import About from "./components/About";
+import Stack from "./components/Stack";
 
 function App() {
   return (
     <div className="App">
       <Introduction />
       <About />
+      <Stack />
       <GlobalStyle />
     </div>
   );
