@@ -3,6 +3,7 @@ import GlobalStyle from "./styles/global";
 import Introduction from "./components/Introduction";
 import About from "./components/About";
 import Stack from "./components/Stack";
+import Education from "./components/Education";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Introduction />
       <About />
       <Stack />
+      <Education />
       <GlobalStyle />
     </div>
   );
