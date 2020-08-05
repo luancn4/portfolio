@@ -25,7 +25,7 @@ function Introduction() {
             Eu sou <br /> Luan Nunes
           </h1>
           <h3>Desenvolvedor Web Full Stack</h3>
-          <p>Eu amo bolo de chocolate</p>
+          <p>Eu amo bolo de chocolate. É sério.</p>
         </div>
       </main>
     </Container>

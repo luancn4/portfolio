@@ -5,7 +5,7 @@ import gatinho from "./gatinho.png";
 function About() {
   return (
     <Container>
-      <img src={gatinho} />
+      <img src={gatinho} alt= "Profile"/>
       <div>
         <h1>Sobre mim</h1>
         <p>
