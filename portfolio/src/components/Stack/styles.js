@@ -2,9 +2,9 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   align-items: center;
-  background-color: #4eaccf;
-  height: 35vh;
-  padding: 5vh 15vw;
+  background-color: #623001;
+  height: 40vh;
+  padding: 5vh 20vw;
   color: white;
   text-align: center;
 

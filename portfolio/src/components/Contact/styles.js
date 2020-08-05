@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   height: 100%;
-  background-color: #063447;
+  background-color: #623001;
   text-align: center;
   color: #ffffff;
   padding: 3vh 32.5vw;

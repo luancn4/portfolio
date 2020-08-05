@@ -8,15 +8,15 @@ export const Container = styled.div`
 
   h3 {
     font-size: 25px;
-    color: #4eaccf;
+    color: rgb(188, 117, 54);
   }
 
   button {
     width: 150px;
-    height: 30px;
+    height: 40px;
     border: none;
     border-radius: 7px;
-    background-color: #063447;
+    background-color: rgb(173, 104, 45);
     color: white;
     cursor: pointer;
   }
@@ -56,7 +56,7 @@ export const Container = styled.div`
         }
 
         button {
-          background-color: #4eaccf;
+          background-color: rgb(188, 117, 54);
         }
       }
     }

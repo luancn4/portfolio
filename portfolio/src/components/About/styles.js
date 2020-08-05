@@ -4,16 +4,14 @@ export const Container = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: black;
+  background-color: #E1AD7E;
   height: 55vh;
   padding: 0 15vw;
   color: white;
 
   img {
-    height: 305px;
-    width: 305px;
-    box-shadow: 6px 6px 1px 1px #fff;
-    background-color: white;
+    width: 500px;
+    height: auto;
   }
 
   div {
@@ -34,6 +32,8 @@ export const Container = styled.div`
       border: none;
       border-radius: 7px;
       padding: 5px 30px;
+      color: white;
+      background-color: rgb(188, 117, 54);
       cursor: pointer;
     }
   }

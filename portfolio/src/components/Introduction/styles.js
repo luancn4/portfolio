@@ -1,8 +1,12 @@
 import styled from "styled-components";
+import bg from "./teste1.jpg"
 
 export const Container = styled.div`
-  background-color: #063447;
-  height: 80vh;
+  background-color: black;
+  background-image: url(${bg});
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
   color: white;
 
   headers {
@@ -27,8 +31,9 @@ export const Container = styled.div`
 
   main {
     display: flex;
-    margin: 150px 61px;
-
+    align-items: center;
+    height: 70vh;
+    padding-left: 61px;
     ul {
       li {
         svg {

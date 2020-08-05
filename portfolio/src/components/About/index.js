@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "./styles";
-import gatinho from "./gatinho.png";
+import gatinho from "./teste3.jpg";
 
 function About() {
   return (
@@ -17,7 +17,7 @@ function About() {
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
-        <strong>NodeJS | MySQL | HTMl | CSS | Javascript</strong>
+        <strong>NodeJS | MySQL | HTML | CSS | Javascript</strong>
         <button>CV em PDF</button>
       </div>
     </Container>
