@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  height: 100vh;
+  height: 100%;
   text-align: center;
   padding: 5vh 10vw;
   color: #063447;
@@ -31,7 +31,9 @@ export const Container = styled.div`
       padding: 5vh 10vw;
 
       img {
-        width: 35%;
+        background-size: 100%;
+        background-size: cover;
+        width: 40%;
       }
 
       h1 {
@@ -65,7 +67,6 @@ export const Container = styled.div`
       }
 
       button {
-        float: right;
       }
     }
   }

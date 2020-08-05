@@ -26,7 +26,7 @@ function Projects() {
             <button>ver no GitHub</button>
           </ul>
         </div>
-        <div id="second">
+        <div>
           <ul>
             <h1>Whats4</h1>
             <h4>Front-end</h4>
@@ -44,7 +44,7 @@ function Projects() {
           <img src={Ipad} alt="Ipad" />
         </div>
         <div>
-          <img src={Imac} alt= "Imac"/>
+          <img src={Imac} alt="Imac" />
           <ul>
             <h1>Whats4</h1>
             <h4>Front-end</h4>
