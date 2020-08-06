@@ -33,4 +33,10 @@ export const Container = styled.div`
       }
     }
   }
+
+  @media screen and (max-width: 600px) {
+    padding: 2em;
+    text-align: center;
+
+  }
 `;

@@ -49,7 +49,7 @@ export const Container = styled.div`
           height: 39px;
           width: 42px;
         }
-        
+
         & + li {
           margin-top: 45px;
         }
@@ -72,6 +72,17 @@ export const Container = styled.div`
 
       p {
         font-size: 19px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    headers {
+      display: none;
+    }
+    main  {
+      > div {
+        margin: 0 auto;
       }
     }
   }

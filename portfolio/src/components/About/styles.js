@@ -5,21 +5,22 @@ export const Container = styled.div`
   justify-content: space-around;
   align-items: center;
   background-color: #011726;
-  height: 55vh;
+  min-height: 55vh;
   padding: 0 13vw;
   color: white;
 
   img {
-    width: 500px;
-    height: auto;
+    width: 31.25rem;
   }
 
   div {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 34%;
-    height: 33vh;
+    height: 35vh;
+    width: 30vw;
+    margin-left: 2.5rem;
+
     text-align: justify;
 
     strong {
@@ -30,7 +31,7 @@ export const Container = styled.div`
       :hover {
         transform: scale(1.1);
       }
-      
+
       width: 140px;
       height: 30px;
       border: none;
@@ -39,6 +40,21 @@ export const Container = styled.div`
       color: white;
       background-color: rgb(188, 117, 54);
       cursor: pointer;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    flex-direction: column;
+    max-height: 100%;
+
+    img {
+      width: 13rem;
+    }
+
+    div {
+      width: 100%;
+      height: 100%;
+      margin: 0;
     }
   }
 `;

@@ -83,19 +83,55 @@ export const Container = styled.div`
       }
       ul {
         text-align: end;
-        
+
         li {
           margin: 10px 0;
         }
-      }
-
-      button {
       }
     }
 
     .Buttons {
       padding: 0;
       justify-content: space-evenly;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    section {
+      div {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: 2em auto;
+
+        h1,
+        h4 {
+          text-align: center;
+        }
+        ul {
+          text-align: justify;
+
+          li {
+            width: 95%;
+          }
+
+          a {
+            text-align: center;
+          }
+        }
+      }
+
+      div:nth-of-type(2) {
+        flex-direction: column-reverse;
+        margin: 2em auto;
+
+        ul {
+          text-align: justify;
+
+          li {
+          }
+        }
+      }
     }
   }
 `;

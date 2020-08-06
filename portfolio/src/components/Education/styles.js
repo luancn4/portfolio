@@ -29,4 +29,18 @@ export const Container = styled.div`
       }
     }
   }
+
+  @media screen and (max-width: 600px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 2em;
+
+    ul {
+    grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+      li {
+        margin: 10px auto;
+      }
+    }
+  }
 `;

@@ -31,4 +31,20 @@ export const Container = styled.div`
       }
     }
   }
+
+  @media screen and (max-width: 600px) {
+    height: 100%;
+    padding: 0;
+
+    section {
+      flex-direction: column;
+      align-items: center;
+
+      div {
+        h1 {
+          font-size: 30px;
+        }
+      }
+    }
+  }
 `;

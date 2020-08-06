@@ -9,9 +9,12 @@ export default createGlobalStyle`
     outline: 0;
     box-sizing: border-box;
   }
+
   html, body, #root {
-    height: 100%
+    height: 100%;
+    width: 100%;
   }
+
   body {
     font: 16px 'Montserrat', sans-serif;
     -webkit-font-smoothing: antialiased !important;
