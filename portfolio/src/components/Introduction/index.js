@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "./styles";
-import { FaLinkedinIn, FaGithub, FaInstagram } from "react-icons/fa"
+import { FaLinkedinIn, FaGithub, FaInstagram } from "react-icons/fa";
 
 function Introduction() {
   return (
@@ -15,17 +15,28 @@ function Introduction() {
       </headers>
       <main>
         <ul>
-          <li><FaLinkedinIn/></li>
-          <li><FaGithub/></li>
-          <li><FaInstagram/></li>
-          <li><FaInstagram/></li>
+          <li>
+            <a href="https://www.linkedin.com/in/luan-nunes4/" target="_blank">
+              <FaLinkedinIn />
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/luancn4" target="_blank">
+              <FaGithub />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/luanckz/" target="_blank">
+              <FaInstagram />
+            </a>
+          </li>
         </ul>
         <div>
           <h1>
             Eu sou <br /> Luan Nunes
           </h1>
           <h3>Desenvolvedor Web Full Stack</h3>
-          <p>Eu amo bolo de chocolate. É sério.</p>
+          <p>Apaixonado por tecnologia e programação.</p>
         </div>
       </main>
     </Container>

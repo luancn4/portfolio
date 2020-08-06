@@ -10,13 +10,18 @@ function Stack() {
           <h1>Front-end</h1>
           <p>
             Desenvolvimento de aplicações web utilizando HTML, CSS e JavaScript.
+            <br/>
+            <br/>
+            Criação de sites responsivos seguindo princípio de Mobile First.
           </p>
         </div>
         <div>
           <h1>Back-end</h1>
           <p>
-            Aplicações utilizando NodeJS, Typescript e MySQL. Criação de API´s
-            para comunicação com front-end seguindo princípio de Clean Code.
+            Aplicações utilizando NodeJS, Typescript e MySQL. <br />
+            <br />
+            Criação de API´s para comunicação com front-end seguindo princípio
+            de Clean Code.
           </p>
         </div>
       </section>

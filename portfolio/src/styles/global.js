@@ -20,4 +20,7 @@ export default createGlobalStyle`
     list-style: none;
   }
   
+  a {
+    color: inherit;
+  }
 `;

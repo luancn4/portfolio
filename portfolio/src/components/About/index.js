@@ -1,24 +1,31 @@
 import React from "react";
 import { Container } from "./styles";
-import gatinho from "./teste3.jpg";
+import Me from "../../assets/me.jpg";
 
 function About() {
   return (
-    <Container>
-      <img src={gatinho} alt= "Profile"/>
+    <Container id="about">
+      <img src={Me} alt="Profile" />
       <div>
         <h1>Sobre mim</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          Sempre fui apaixonado por tecnologia, e aos 18 anos comecei a estudar
+          programação. Meu primeiro contato foi com a linguagem Python através
+          de buscas pessoais. Resolvi aprender mais a fundo a programar, foi
+          quando eu apliquei e passei no curso de desenvolvimento full stack da
+          Labenu. Atualmente procuro uma oportunidade para atuar como
+          desenvolvedor júnior.
         </p>
         <strong>NodeJS | MySQL | HTML | CSS | Javascript</strong>
-        <button>CV em PDF</button>
+        <button
+          onClick={() =>
+            window.open(
+              "https://github.com/luancn4/portfolio/files/5036867/Curriculo.Luan.C.Nunes.pdf"
+            )
+          }
+        >
+          CV em PDF
+        </button>
       </div>
     </Container>
   );

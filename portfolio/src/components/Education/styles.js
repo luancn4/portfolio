@@ -2,12 +2,13 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   height: 100%;
-  background-color: #241100;
+  background-color: #5b83a6;
   color: white;
-  padding: 5vh 12vw;
+  padding: 5vh 18vw;
 
   h3 {
     font-size: 25px;
+    margin-bottom: 1em;
     text-align: center;
   }
 

@@ -4,9 +4,9 @@ export const Container = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #E1AD7E;
+  background-color: #011726;
   height: 55vh;
-  padding: 0 15vw;
+  padding: 0 13vw;
   color: white;
 
   img {
@@ -18,7 +18,7 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 33vw;
+    width: 34%;
     height: 33vh;
     text-align: justify;
 
@@ -27,6 +27,10 @@ export const Container = styled.div`
     }
 
     button {
+      :hover {
+        transform: scale(1.1);
+      }
+      
       width: 140px;
       height: 30px;
       border: none;

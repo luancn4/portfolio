@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import bg from "./teste1.jpg"
+import bg from "../../assets/background.jpg";
 
 export const Container = styled.div`
   background-color: black;
@@ -17,13 +17,16 @@ export const Container = styled.div`
     > div {
       margin: 25px 61px;
       font-weight: 800;
-      font-size: 21px;
+      font-size: 26px;
     }
 
     ul {
       display: flex;
-
       li {
+        :hover {
+          color: #161515;
+          cursor: pointer;
+        }
         margin: 19px 61px;
       }
     }
@@ -34,12 +37,21 @@ export const Container = styled.div`
     align-items: center;
     height: 70vh;
     padding-left: 61px;
+
     ul {
       li {
+        :hover {
+          transform: scale(1.3);
+          cursor: pointer;
+        }
+
         svg {
-          height: 33px;
-          width: 36px;
-          margin-bottom: 24px;
+          height: 39px;
+          width: 42px;
+        }
+        
+        & + li {
+          margin-top: 45px;
         }
       }
     }
@@ -50,16 +62,16 @@ export const Container = styled.div`
       justify-content: center;
 
       h1 {
-        font-size: 50px;
+        font-size: 60px;
       }
 
       h3 {
         margin: 16px 0px 16px;
-        font-size: 24px;
+        font-size: 27px;
       }
 
       p {
-        font-size: 16px;
+        font-size: 19px;
       }
     }
   }

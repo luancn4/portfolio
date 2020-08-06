@@ -4,6 +4,7 @@ export const Container = styled.div`
   height: 100%;
   text-align: center;
   padding: 5vh 10vw;
+  background-color: #f2f2f2;
   color: #063447;
 
   h3 {
@@ -12,6 +13,9 @@ export const Container = styled.div`
   }
 
   button {
+    :hover {
+      transform: scale(1.1);
+    }
     width: 150px;
     height: 40px;
     border: none;
@@ -29,6 +33,10 @@ export const Container = styled.div`
       flex-direction: row;
       justify-content: space-evenly;
       padding: 5vh 10vw;
+
+      .notebook {
+        width: 50%;
+      }
 
       img {
         background-size: 100%;
@@ -53,6 +61,14 @@ export const Container = styled.div`
         li {
           width: 370px;
           margin: 23px 0 21px;
+
+          ul {
+            list-style: circle;
+            margin-top: 7px;
+            li {
+              margin: 5px 0 5px 20px;
+            }
+          }
         }
 
         button {
@@ -62,12 +78,24 @@ export const Container = styled.div`
     }
 
     div:nth-of-type(2) {
+      h4 {
+        margin: 0;
+      }
       ul {
         text-align: end;
+        
+        li {
+          margin: 10px 0;
+        }
       }
 
       button {
       }
+    }
+
+    .Buttons {
+      padding: 0;
+      justify-content: space-evenly;
     }
   }
 `;

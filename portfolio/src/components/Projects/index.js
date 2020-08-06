@@ -1,8 +1,8 @@
 import React from "react";
 import { Container } from "./styles";
-import Note from "./notebookteste.png";
-import Ipad from "./ipad.png";
-import Imac from "./imac.png";
+import Note from "../../assets/notebook.png";
+import Ipad from "../../assets/ipad.png";
+import Imac from "../../assets/imac.png";
 
 function Projects() {
   return (
@@ -10,58 +10,90 @@ function Projects() {
       <h3>Meus projetos</h3>
       <section>
         <div>
-          <img src={Note} alt="notebook" />
+          <img className = "notebook" src={Note} alt="notebook" />
+
           <ul>
-            <h1>Whats4</h1>
-            <h4>Front-end</h4>
+            <h1>Labook</h1>
+            <h4>Back-end</h4>
             <li>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              O Labook é um projeto de Backend que utilizei para treinar alguns
+              casos de CRUD de uma API. O projeto consiste em:{" "}
+              <ul>
+                <li>Cadastro</li>
+                <li>Login</li>
+                <li>Fazer e desfazer amizade</li>
+                <li>Criar um post</li>
+                <li>Ver o feed com os posts dos amigos que você adicionou</li>
+                <li>
+                  Filtrar o feed para aparecer apenas um tipo de post ('normal'
+                  ou 'evento')
+                </li>
+              </ul>
             </li>
-            <button>ver no GitHub</button>
+            <a href="https://github.com/luancn4/Labook" target="_blank">
+              <button>ver no GitHub</button>
+            </a>
           </ul>
         </div>
         <div>
           <ul>
-            <h1>Whats4</h1>
+            <h1>4eddit</h1>
             <h4>Front-end</h4>
             <li>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              O 4eddit foi desenvolvido durante o curso da{" "}
+              <a href="http://www.labenu.com.br" target="_blank">
+                Labenu
+              </a>{" "}
+              inspirado no site do{" "}
+              <a href="https://www.reddit.com" target="_blank">
+                Reddit
+              </a>
+              , onde o usuário pode ver, criar, curtir posts e comentá-los.
             </li>
-            <button>ver no GitHub</button>
+            <a href="https://github.com/luancn4/4eddit" target="_blank">
+              <button>ver no GitHub</button>
+            </a>
           </ul>
           <img src={Ipad} alt="Ipad" />
         </div>
         <div>
           <img src={Imac} alt="Imac" />
           <ul>
-            <h1>Whats4</h1>
-            <h4>Front-end</h4>
+            <h1>Spotenu</h1>
+            <h4>Front e Back-end</h4>
             <li>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              O Spotenu foi o projeto de finalização de curso da Labenu. Ele
+              consiste em:
+              <ul>
+                <li>Cadastro (ouvinte ou banda)</li>
+                <li>Login</li>
+                <li>Listagem de bandas</li>
+                <li>Aprovação de bandas</li>
+                <li>Adição de gêneros musicais</li>
+                <li>Criação de álbuns</li>
+                <li>Criação de músicas</li>
+              </ul>
             </li>
-            <button>ver no GitHub</button>
+            <div className="Buttons">
+              <a
+                href="https://github.com/luancn4/Frontend-Spotenu"
+                target="_blank"
+              >
+                <button>Front-end</button>
+              </a>
+              <a
+                href="https://github.com/luancn4/Backend-Spotenu"
+                target="_blank"
+              >
+                <button>Back-end</button>
+              </a>
+            </div>
           </ul>
         </div>
       </section>
-      <button>Mais projetos</button>
+      <a href="https://github.com/luancn4?tab=repositories" target="_blank">
+        <button>Mais projetos</button>
+      </a>
     </Container>
   );
 }

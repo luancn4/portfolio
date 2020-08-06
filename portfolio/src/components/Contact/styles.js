@@ -23,6 +23,10 @@ export const Container = styled.div`
     justify-content: space-around;
     padding: 0 3rem;
     li {
+      :hover {
+        transform: scale(1.3);
+        cursor: pointer;
+      }
       svg {
         height: 36px;
         width: 39px;

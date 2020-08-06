@@ -14,13 +14,19 @@ function Contact() {
       <p>Celular: (19) 99698-5213</p>
       <ul>
         <li>
-          <FaLinkedinIn />
+          <a href="https://www.linkedin.com/in/luan-nunes4/" target="_blank">
+            <FaLinkedinIn />
+          </a>
         </li>
         <li>
-          <FaGithub />
+          <a href="https://github.com/luancn4" target="_blank">
+            <FaGithub />
+          </a>
         </li>
         <li>
-          <FaInstagram />
+          <a href="https://www.instagram.com/luanckz/" target="_blank">
+            <FaInstagram />
+          </a>
         </li>
       </ul>
     </Container>
