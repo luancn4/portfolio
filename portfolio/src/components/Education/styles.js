@@ -34,12 +34,17 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0 2em;
+    padding: 2em;
 
     ul {
-    grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(19.5rem, 1fr));
       li {
-        margin: 10px auto;
+        margin: 5px auto;
+        padding: 1.5em 1.5em;
+
+        h2 {
+          text-align: center;
+        }
       }
     }
   }

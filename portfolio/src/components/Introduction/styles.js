@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import bg from "../../assets/background.jpg";
+import croppedBg from "../../assets/cropedbg.jpg";
 
 export const Container = styled.div`
   background-color: black;
@@ -9,7 +10,7 @@ export const Container = styled.div`
   height: 100vh;
   color: white;
 
-  headers {
+  .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -77,12 +78,54 @@ export const Container = styled.div`
   }
 
   @media screen and (max-width: 600px) {
-    headers {
-      display: none;
+    display: flex;
+    flex-direction: column;
+    background-repeat: unset;
+
+    .header {
+      > div {
+        display: none;
+      }
+
+      ul {
+        width: 100%;
+
+        li {
+          margin: 1em 1.6em;
+        }
+      }
     }
-    main  {
+
+    main {
+      height: 100%;
+      padding: 3em 0 0;
+      flex-direction: column-reverse;
+      justify-content: space-evenly;
+
+      ul {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 2em;
+        li {
+          & + li {
+            margin: 0;
+          }
+        }
+      }
       > div {
         margin: 0 auto;
+
+        h1 {
+          font-size: 54px;
+          text-align: center;
+        }
+
+        h3,
+        p {
+          text-align: center;
+        }
       }
     }
   }

@@ -5,28 +5,40 @@ import { FaLinkedinIn, FaGithub, FaInstagram } from "react-icons/fa";
 function Introduction() {
   return (
     <Container>
-      <headers>
+      <div className= "header">
         <div>Luan</div>
         <ul>
-          <li>quem sou</li>
-          <li>projetos</li>
-          <li>contato</li>
+          <a href= "#about"><li>quem sou</li></a>
+          <a href= "#projects"><li>projetos</li></a>
+          <a href= "#contact"><li>contato</li></a>
         </ul>
-      </headers>
+      </div>
       <main>
         <ul>
           <li>
-            <a href="https://www.linkedin.com/in/luan-nunes4/" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/luan-nunes4/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaLinkedinIn />
             </a>
           </li>
           <li>
-            <a href="https://github.com/luancn4" target="_blank">
+            <a
+              href="https://github.com/luancn4"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaGithub />
             </a>
           </li>
           <li>
-            <a href="https://www.instagram.com/luanckz/" target="_blank">
+            <a
+              href="https://www.instagram.com/luanckz/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaInstagram />
             </a>
           </li>

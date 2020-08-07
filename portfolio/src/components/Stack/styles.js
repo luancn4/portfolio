@@ -34,15 +34,22 @@ export const Container = styled.div`
 
   @media screen and (max-width: 600px) {
     height: 100%;
-    padding: 0;
+    padding: 2rem;
 
     section {
       flex-direction: column;
       align-items: center;
+      justify-content: space-between;
 
       div {
+        margin: 0;
         h1 {
           font-size: 30px;
+          margin-top: 1rem;
+          text-align: center;
+        }
+        p {
+          margin-top: .5rem;
         }
       }
     }

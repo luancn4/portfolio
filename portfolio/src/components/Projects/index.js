@@ -6,11 +6,11 @@ import Imac from "../../assets/imac.png";
 
 function Projects() {
   return (
-    <Container>
-      <h3>Meus projetos</h3>
+    <Container id = "projects">
+      <h1>Meus projetos</h1>
       <section>
         <div>
-          <img className = "notebook" src={Note} alt="notebook" />
+          <img className="notebook" src={Note} alt="notebook" />
 
           <ul>
             <h1>Labook</h1>
@@ -30,7 +30,11 @@ function Projects() {
                 </li>
               </ul>
             </li>
-            <a href="https://github.com/luancn4/Labook" target="_blank">
+            <a
+              href="https://github.com/luancn4/Labook"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <button>ver no GitHub</button>
             </a>
           </ul>
@@ -41,16 +45,28 @@ function Projects() {
             <h4>Front-end</h4>
             <li>
               O 4eddit foi desenvolvido durante o curso da{" "}
-              <a href="http://www.labenu.com.br" target="_blank">
+              <a
+                href="http://www.labenu.com.br"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Labenu
               </a>{" "}
               inspirado no site do{" "}
-              <a href="https://www.reddit.com" target="_blank">
+              <a
+                href="https://www.reddit.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Reddit
               </a>
               , onde o usuário pode ver, criar, curtir posts e comentá-los.
             </li>
-            <a href="https://github.com/luancn4/4eddit" target="_blank">
+            <a
+              href="https://github.com/luancn4/4eddit"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <button>ver no GitHub</button>
             </a>
           </ul>
@@ -78,12 +94,14 @@ function Projects() {
               <a
                 href="https://github.com/luancn4/Frontend-Spotenu"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <button>Front-end</button>
               </a>
               <a
                 href="https://github.com/luancn4/Backend-Spotenu"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <button>Back-end</button>
               </a>
@@ -91,7 +109,11 @@ function Projects() {
           </ul>
         </div>
       </section>
-      <a href="https://github.com/luancn4?tab=repositories" target="_blank">
+      <a
+        href="https://github.com/luancn4?tab=repositories"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <button>Mais projetos</button>
       </a>
     </Container>

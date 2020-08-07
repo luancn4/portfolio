@@ -15,6 +15,10 @@ export default createGlobalStyle`
     width: 100%;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     font: 16px 'Montserrat', sans-serif;
     -webkit-font-smoothing: antialiased !important;
@@ -25,5 +29,6 @@ export default createGlobalStyle`
   
   a {
     color: inherit;
+    text-decoration: none;
   }
 `;

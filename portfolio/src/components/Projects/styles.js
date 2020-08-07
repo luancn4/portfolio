@@ -7,8 +7,7 @@ export const Container = styled.div`
   background-color: #f2f2f2;
   color: #063447;
 
-  h3 {
-    font-size: 25px;
+  > h1 {
     color: rgb(188, 117, 54);
   }
 
@@ -45,7 +44,7 @@ export const Container = styled.div`
       }
 
       h1 {
-        font-size: 42px;
+        font-size: 39px;
       }
 
       h4 {
@@ -119,6 +118,11 @@ export const Container = styled.div`
             text-align: center;
           }
         }
+
+        img,
+        .notebook {
+          width: 100%;
+        }
       }
 
       div:nth-of-type(2) {
@@ -127,9 +131,20 @@ export const Container = styled.div`
 
         ul {
           text-align: justify;
-
+          margin-top: 1.2em;
           li {
+            margin: 1em 0 1.2em;
           }
+        }
+      }
+
+      .Buttons {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+
+        button {
+          width: 10em;
         }
       }
     }

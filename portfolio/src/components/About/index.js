@@ -13,8 +13,8 @@ function About() {
           programação. Meu primeiro contato foi com a linguagem Python através
           de buscas pessoais. Resolvi aprender mais a fundo a programar, foi
           quando eu apliquei e passei no curso de desenvolvimento full stack da
-          Labenu. Atualmente procuro uma oportunidade para atuar como
-          desenvolvedor júnior.
+          Labenu. Atualmente procuro uma oportunidade como
+          desenvolvedor júnior. 
         </p>
         <strong>NodeJS | MySQL | HTML | CSS | Javascript</strong>
         <button

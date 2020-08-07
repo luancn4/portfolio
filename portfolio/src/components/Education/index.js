@@ -17,7 +17,7 @@ function Education() {
           </p>
         </li>
         <li>
-          <h2>Redes de Computadores - FATEC Indaiatuba</h2>
+          <h2>FATEC Indaiatuba - Redes de Computadores</h2>
           <p>Jan 2019 - Jan 2020</p>
           <p>
             O curso de Redes de Computadores destina-se ao público com

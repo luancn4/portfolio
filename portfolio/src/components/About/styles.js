@@ -46,7 +46,7 @@ export const Container = styled.div`
   @media screen and (max-width: 600px) {
     flex-direction: column;
     max-height: 100%;
-
+    padding: 2em 2em;
     img {
       width: 13rem;
     }
@@ -55,6 +55,22 @@ export const Container = styled.div`
       width: 100%;
       height: 100%;
       margin: 0;
+      
+      h1, strong, button {
+        text-align: center;
+      }
+
+      h1, p, strong {
+        margin-top: 1em;
+      }
+
+      p {
+        text-align: justify;
+      }
+
+      button {
+        margin: 1em auto 0;
+      }
     }
   }
 `;
