@@ -43,12 +43,12 @@ export const Container = styled.div`
     }
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 1024px) {
     flex-direction: column;
     max-height: 100%;
     padding: 2em 2em;
     img {
-      width: 13rem;
+      width: 20rem;
     }
 
     div {

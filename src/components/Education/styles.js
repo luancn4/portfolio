@@ -30,7 +30,7 @@ export const Container = styled.div`
     }
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 1024px) {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -38,6 +38,7 @@ export const Container = styled.div`
 
     ul {
     grid-template-columns: repeat(auto-fit, minmax(19.5rem, 1fr));
+    grid-gap: 1em;
       li {
         margin: 5px auto;
         padding: 1.5em 1.5em;

@@ -32,7 +32,7 @@ export const Container = styled.div`
     }
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 1024px) {
     height: 100%;
     padding: 2rem;
 

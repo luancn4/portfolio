@@ -77,7 +77,7 @@ export const Container = styled.div`
     }
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 1024px) {
     display: flex;
     flex-direction: column;
     background-repeat: unset;
@@ -88,6 +88,7 @@ export const Container = styled.div`
       }
 
       ul {
+        justify-content: space-between;
         width: 100%;
 
         li {

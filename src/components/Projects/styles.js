@@ -35,12 +35,14 @@ export const Container = styled.div`
 
       .notebook {
         width: 50%;
+        min-width: 45%;
       }
 
       img {
         background-size: 100%;
         background-size: cover;
-        width: 40%;
+        width: 45%;
+        min-width: 45%;
       }
 
       h1 {
@@ -95,7 +97,7 @@ export const Container = styled.div`
     }
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 1024px) {
     section {
       div {
         flex-direction: column;
